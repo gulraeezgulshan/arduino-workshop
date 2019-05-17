@@ -1,6 +1,6 @@
-#Project #1: Creating a Blinking LED Wave
+# Project #1: Creating a Blinking LED Wave
 
-##The Algorithm
+## The Algorithm
 
 1. Turn on LED 1.
 2. Wait half a second.
@@ -11,7 +11,7 @@
 7. Continue until LED 5 is turned on, at which point the process reverses from LED 5 to 1.
 8. Repeat indefinitely.
 
-##The Hardware
+## The Hardware
 
 - Five LEDs
 - Five 560 W resistors
