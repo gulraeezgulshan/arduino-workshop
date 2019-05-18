@@ -3,6 +3,7 @@
 #define newLED 2 // green LED 'new'
 #define okLED 4 // yellow LED 'ok'
 #define oldLED 6 // red LED 'old'
+
 int analogValue = 0;
 float voltage = 0;
 int ledDelay = 2000;
@@ -16,8 +17,8 @@ void setup()
 
 void loop()
 {
-  analogValue = analogRead(0);
-  voltage = 0.0048 * analogValue;
+  analogValue = analogRead(0);// 0 to 1023 512
+  voltage = 0.0048828125 * analogValue;
   if ( voltage >= 1.6 )
   {
     digitalWrite(newLED, HIGH);
