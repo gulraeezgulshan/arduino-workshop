@@ -22,7 +22,7 @@ void loop()
   sensor = analogRead(0);
   voltage = (sensor * 5000) / 1024; // convert raw sensor value to millivolts
   voltage = voltage - 500; // remove voltage offset
-  celsius = voltage / 10; // convert millivolts to Celsius
+  celsius = voltage / 100; // convert millivolts to Celsius
   // act on temperature range
   if ( celsius < coldTemp )
   {
