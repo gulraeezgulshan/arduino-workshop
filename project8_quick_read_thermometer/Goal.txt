@@ -1,0 +1,7 @@
+Goal
+-----
+
+In this project, we’ll use the TMP36 to create a quick-read thermometer.
+When the temperature falls below 20 degrees Celsius, a blue LED turns
+on. When the temperature is between 20 and 26 degrees, a green LED
+turns on, and when the temperature is above 26 degrees, a red LED turns on.
