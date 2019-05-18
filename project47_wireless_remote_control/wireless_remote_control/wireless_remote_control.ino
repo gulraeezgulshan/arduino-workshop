@@ -34,3 +34,11 @@ void loop()
     vw_wait_tx();
     delay(200);
   }
+
+  if (digitalRead(3) == LOW)
+  {
+    vw_send((uint8_t *)off3, strlen(off3));
+    vw_wait_tx();
+    delay(200);
+  }
+}
