@@ -1,0 +1,4 @@
+Four LEDs
+Four 560 Ohm resistors
+Various connecting wires
+One breadboard

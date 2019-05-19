@@ -1,0 +1,8 @@
+In this project you’ll control the digital output pins on your Arduino by
+sending a text message from your cell phone. You should be able to use
+your existing knowledge to add various devices to control. We’ll allow for
+four separate digital outputs, but you can control more or less as required.
+To turn on or off four digital outputs (pins 10 through 13 in this
+example), you’d send a text message to your Arduino in the following format:
+#axbxcxdx, replacing x with either a 0 for off or a 1 for on. For example,
+to turn on all four outputs, you’d send #a1b1c1d1.

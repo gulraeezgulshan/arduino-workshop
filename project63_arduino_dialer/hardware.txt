@@ -1,0 +1,5 @@
+One push button
+One 10 kOhm resistor
+One 100 nF capacitor
+Various connecting wires
+One breadboard
